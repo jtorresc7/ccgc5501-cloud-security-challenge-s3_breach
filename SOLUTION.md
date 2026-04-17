@@ -98,3 +98,11 @@ Key Takeaways:
 - Use VPC endpoints for S3 access
 
 Flag: CLOUDGOAT{cm9n3kop_BREACH_COMPLETE}
+
+
+
+# Reflection
+
+This lab showed how a small mistake in a server can create a big security problem. I could use the vulnerability to get AWS credentials and 
+access S3 data. This means a small problem can let someone access sensitive information. It also shows why we must use secure settings and 
+limit permissions.
